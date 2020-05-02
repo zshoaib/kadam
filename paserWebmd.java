@@ -44,14 +44,14 @@ public class paserWebmd {
         StringBuilder builder = new StringBuilder();
 
 
-//        //question
-//        String question = "## intent:quest/";
-//        builder.append(question);
-//        builder.append(String.valueOf(count));
-//        builder.append("\n");
-//        builder.append("- ");
-//        builder.append(faq.get("question").toString());
-//        builder.append("\n");
+       //question
+       String question = "## intent:quest/";
+       builder.append(question);
+       builder.append(String.valueOf(count));
+       builder.append("\n");
+       builder.append("- ");
+       builder.append(faq.get("question").toString());
+       builder.append("\n");
 
         //answer
 //        String answer = "utter_quest_";
@@ -70,8 +70,8 @@ public class paserWebmd {
 //        String answer = "* faq/";
 
         //intent
-        String header = "quest";
-        builder.append("- " + header+ count);
+//         String header = "quest";
+//         builder.append("- " + header+ count);
 
 
         System.out.println(builder.toString());
